@@ -52,7 +52,19 @@ function translateSmash() {
     "stock": "health",
     "Tilt Attack": "Normal",
     "Tilt attack": "Normal",
-    "tilt attack": "normal"
+    "tilt attack": "normal",
+    "End Lag": "Recovery",
+    "End lag": "Recovery",
+    "end lag": "recovery",
+    "Ending Lag": "Recovery",
+    "Ending lag": "Recovery",
+    "ending lag": "recovery",
+    "Start-up Lag": "Start-up Frames",
+    "Start-up lag": "Start-up frames",
+    "start-up Lag": "start-up frames",
+    "Startup Lag": "Start-up Frames",
+    "Startup lag": "Start-up frames",
+    "startup Lag": "start-up frames"
   }
     
   let elements_a = [...document.getElementsByTagName("a")];
