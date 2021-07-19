@@ -83,7 +83,7 @@ function translateSmash() {
   
   elements.forEach(element => {
     for (let [key, value] of Object.entries(translation_data)) {
-      element.innerHTML = element.innerHTML.replace(key, value);
+      element.innerHTML = element.innerHTML.replaceAll(key, value);
     }
   });
 
