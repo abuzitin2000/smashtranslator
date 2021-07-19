@@ -18,8 +18,7 @@ Download repository as zip
 Unzip the rar
 Open the extensions page in your browser
 Check the Developer mode slider on the upper righ corner of your browser screen
-Click the LOAD UNPACKED button on the upper left side of
-your browser screen
+Click the LOAD UNPACKED button on the upper left side of your browser screen
 Select the unzipped folder
 You can uncheck the Developer mode if you like
 ```
