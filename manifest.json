@@ -1,7 +1,7 @@
 {
 	"name": "Smash to FGC Translator",
 	"description": "Translates smash lingo into fgc ones and vice versa!",
-	"version": "1.0",
+	"version": "1.1",
 	"manifest_version": 3,
 	"permissions": [
 		"activeTab", "scripting"

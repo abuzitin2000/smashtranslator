@@ -69,6 +69,8 @@ function translateSmash() {
     
   let elements_a = [...document.getElementsByTagName("a")];
 
+  let elements_b = [...document.getElementsByTagName("b")];
+
   let elements_span = [...document.getElementsByTagName("span")];
 
   let elements_p = [...document.getElementsByTagName("p")];
@@ -77,7 +79,7 @@ function translateSmash() {
 
   let elements_div = [...document.getElementsByTagName("div")];
 
-  let elements = [...elements_a, ...elements_span, ...elements_p, ...elements_h1, ...elements_div];
+  let elements = [...elements_a, ...elements_b, ...elements_span, ...elements_p, ...elements_h1, ...elements_div];
   
   elements.forEach(element => {
     for (let [key, value] of Object.entries(translation_data)) {
